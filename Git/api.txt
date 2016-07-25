@@ -1,4 +1,4 @@
-ll﻿
+
 $ mkdir learngit  //创建目录
 $ cd learngit  //cd	
 $ pwd  //查看当前目录
