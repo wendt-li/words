@@ -31,6 +31,11 @@ $ git rm test.txt  // 确认删除
 $ git commit -m "remove test.txt"  // 提交
 $ git checkout -- test.txt  // 删错了,用版本库里的版本替换工作区的版本
 
+$ git rm -r -n --cached "build"  //-n：加上这个参数，执行命令时，是不会删除任何文件，而是展示此命令要删除的文件列表预览。
+$ git rm -r --cached "bulid"  //最终执行命令.
+$ git commit -m"移除src目录下所有文件的版本控制"  //提交
+$ git push origin master  //提交到远程服务器
+
 $ ssh-keygen -t rsa -C "youremail@example.com"  // C:\Users\Administrator\.ssh
 $ git remote add origin git@github.com:wendt-li/gitApi.git  // 在github创建项目后，
 $ git push -u origin master  // 第一次提交，之后git push origin master推送最新修改
