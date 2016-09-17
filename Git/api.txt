@@ -11,7 +11,7 @@ $ git init  // 命令把这个目录变成Git可以管理的仓库
 $ git add readme.txt  //添加
 $ git commit -m "add distributed"  //提交	
 
-$ git status  //查看状态
+$ git status  //查看状态 
 $ git diff readme.txt  //查看修改内容
 
 $ git log  //查看日记
