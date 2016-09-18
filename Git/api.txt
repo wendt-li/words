@@ -42,7 +42,7 @@ $ git push -u origin master  // 第一次提交，之后git push origin master�
 
 $ git clone git@github.com:michaelliao/gitskills.git  // 克隆项目
 
-$ git branch dev  //创建分支
+$ git branch dev  //创建分支 
 $ git checkout dev  //切换分支
 $ git checkout -b dev  //上面两条指令简写
 $ git branch  //查看当前分支
