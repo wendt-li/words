@@ -1,7 +1,7 @@
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 
-$ mkdir learngit  //创建目录
+$ mkdir learngit  //创建目录 
 $ cd learngit  //cd	  
 $ pwd  //查看当前目录 
 
