@@ -3,7 +3,7 @@ $ git config --global user.email "email@example.com"
 
 $ mkdir learngit  //创建目录 
 $ cd learngit  //cd	   
-$ pwd  //查看当前目录 
+$ pwd  //查看当前目录  
 
 $ git init  // 命令把这个目录变成Git可以管理的仓库
 
